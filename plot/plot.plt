@@ -21,12 +21,12 @@ set key left
 
 plot  '../data/cmp/cmp_L_8.dat' using 3:(column(col)):(column(col + 1))  with errorline pt 6  lc 'purple'  t '8',\
 '../data/cmp/cmp_L_16.dat' using 3:(column(col)):(column(col + 1))  with errorline pt 6  lc 'green'  t '16',\
-'../data/cmp/cmp_L_32.dat' using 3:(column(col)):(column(col + 1))  with errorline pt 6  lc 'blue'  t '32',\
-'../data/cmp/cmp_L_64.dat' using 3:(column(col)):(column(col + 1))  with errorline pt 6  lc 'red'  t '64'
+'../data/cmp/cmp_L_20.dat' using 3:(column(col)):(column(col + 1))  with errorline pt 6  lc 'blue'  t '20',\
+'../data/cmp/cmp_L_32.dat' using 3:(column(col)):(column(col + 1))  with errorline pt 6  lc 'red'  t '32'
 
-plot  '../data/cmp/cmp_L_8.dat' using 3:(column(col))  with errorline pt 6  lc 'purple'  t '8',\
-'../data/cmp/cmp_L_16.dat' using 3:(column(col))  with errorline pt 6  lc 'green'  t '16',\
-'../data/cmp/cmp_L_32.dat' using 3:(column(col))  with errorline pt 6  lc 'blue'  t '32',\
-'../data/cmp/cmp_L_64.dat' using 3:(column(col))  with errorline pt 6  lc 'red'  t '64'
+# plot  '../data/cmp/cmp_L_8.dat' using 3:(column(col))  with errorline pt 6  lc 'purple'  t '8',\
+# '../data/cmp/cmp_L_16.dat' using 3:(column(col))  with errorline pt 6  lc 'green'  t '16',\
+# '../data/cmp/cmp_L_32.dat' using 3:(column(col))  with errorline pt 6  lc 'blue'  t '32',\
+# '../data/cmp/cmp_L_64.dat' using 3:(column(col))  with errorline pt 6  lc 'red'  t '64'
 
 set output

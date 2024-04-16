@@ -9,7 +9,7 @@ SCRIPT = 'format_data.py'
 RUN = 'python3'
 
 # Define the path to search
-search_path = os.path.join('..', '..', MODE, hf.run_folder)
+search_path = os.path.join('..', '..', MODE, 'jobs')
 
 # Walk through the directory tree
 for root, dirs, files in os.walk(search_path):

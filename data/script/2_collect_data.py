@@ -13,7 +13,7 @@ with open(OUTPUT_FILE, 'w') as f:
     pass
 
 # Use glob to locate all target files in subdirectories
-search_path = f'../../{MODE}/'+ hf.run_folder +'/**/{TARGET_FILE}'
+search_path = f'../../{MODE}/jobs/**/{TARGET_FILE}'
 files = glob.glob(search_path, recursive=True)
 
 # Process each file found

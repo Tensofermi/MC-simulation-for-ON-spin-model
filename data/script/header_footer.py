@@ -14,6 +14,5 @@ footer = 0
 
 
 #### name ####
-run_folder = "jobs"
 format_file = "ouput.txt"
 formated_file = "collect.txt"
