@@ -1,0 +1,6 @@
+*.dat
+*.pdf
+*.out
+/lsub/jobs/*/
+/qsub/jobs/*/
+.vscode/
